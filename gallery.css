@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;  */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #201e1b;
+    color: white;
+    line-height: 1.6;
+    background-image: url("assets/gambarKedai.png");
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+}
+
+hr {
+    border: 1px solid #f0bc0f;
+    margin: 10px 0;
+}
+
+header {
+    box-shadow: 0 0 15px #d3a302;
+    background-color: #000000;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+}
+
+header h2 {
+    color: #efe4e4;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #070404;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: black;
+    color: rgb(10, 70, 200);
+    /* box-shadow: 0 -5px 10px #001487; */
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    color: #D4AF37;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.tengah {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.box {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 1px solid #D4AF37;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box h3 {
+    color: #D4AF37;
+    margin-top: 12px;
+}
+
+footer {
+    background-color: #191818;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
